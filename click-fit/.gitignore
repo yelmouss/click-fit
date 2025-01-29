@@ -1,0 +1,30 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Uploaded images
+frontend/upload_images/*
+!frontend/upload_images/.gitkeep
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db

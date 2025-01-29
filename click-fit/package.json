@@ -1,0 +1,19 @@
+{
+  "name": "click-fit",
+  "version": "1.0.0",
+  "description": "A sports website focused on fitness with responsive design and image upload functionality.",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
